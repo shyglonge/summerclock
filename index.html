@@ -14,17 +14,40 @@
 	}
 	
 	#information{
-	height: 50%;
-	width:57%;
+	height: 55%;
+	width:100%;
 	position: absolute;
-	top:23%;
-	left:20%;
+	top:25%;
+	left:0%;
 	background: black;
 	opacity: 0.75;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
+	text-indent: -30%
 
 	}
+	
+	#left
+	{
+	height: 8%;
+	width: 53.780279486031%;
+	background: #FF00FF;
+	float:left
+	}	
+
+
+	
+	#passed
+	{
+	height: 8%;
+	width: 46.219720513969%;
+	background: #00FF00;
+	float:left;
+	
+	
+	}
+	
+
 	
 	</style>
 	
@@ -32,11 +55,23 @@
 	<body>
 
 	<center>
-	<font size="8" color="white">We're waiting for the summer:</font>
-	</center>
+	<p><font size="10v" color="white">We're waiting for the summer:</font></p>
 	<div id="information">
-	<font color="white" size=6>Abc</font>
+	<p><font size="6v" color="white">Months:</font></p>
+	<p><font size="6v" color="white">Weeks:</font></p>
+	<p><font size="6v" color="white">Days:</font></p>
+	<p><font size="6v" color="white">Hours:</font></p>
+	<p><font size="6v" color="white">Minutes:</font></p>
+	<p><font size="6v" color="white">Seconds:</font></p>
+	
+	<table width="70%">
+	<tr><td><div id="passed">??.?%</div><div id="left">??.?%</div></td></tr>
+	</table>
+	
+	
 	</div>
+	</center>
+
 
 		
 		
